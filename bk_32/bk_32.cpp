@@ -13,13 +13,13 @@ void calc1(int val, int A[], int n);
 int calc3();
 
 
-void main() {
+int main() {
 
 	//int A[N] = {0};
 	int B[N] = { 0 };
 	calc(72, B, N);
 	printArray(B, N);
-	
+	return 0;
 }
 
 void printArray(int A[], int n)
